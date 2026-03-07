@@ -2302,4 +2302,10 @@ export const components: ComponentDefinition[] = [
     registryDependencies: [],
     dependencies: ["motion"],
   },
+  {
+    name: "briefcase-business",
+    path: path.join(__dirname, "../icons/briefcase-business.tsx"),
+    registryDependencies: [],
+    dependencies: ["motion"],
+  },
 ];

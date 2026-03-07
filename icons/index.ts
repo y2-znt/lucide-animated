@@ -64,6 +64,7 @@ import { BotMessageSquareIcon } from "@/icons/bot-message-square";
 import { BoxIcon } from "@/icons/box";
 import { BoxesIcon } from "@/icons/boxes";
 import { BrainIcon } from "@/icons/brain";
+import { BriefcaseBusinessIcon } from "@/icons/briefcase-business";
 import { CalendarCheckIcon } from "@/icons/calendar-check";
 import { CalendarCheck2Icon } from "@/icons/calendar-check-2";
 import { CalendarCogIcon } from "@/icons/calendar-cog";
@@ -440,6 +441,11 @@ const ICON_LIST: IconListItem[] = [
       "intelligent",
       "smart",
     ],
+  },
+  {
+    name: "briefcase-business",
+    icon: BriefcaseBusinessIcon,
+    keywords: ["work", "bag", "baggage", "folder", "portfolio"],
   },
   {
     name: "truck",
